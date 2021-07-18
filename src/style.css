@@ -1,0 +1,27 @@
+.icon{
+    color: red;
+    font-size: 30px;
+}
+body{
+    background-color: burlywood;
+}
+.grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 15px;
+}
+.box{
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.choose{
+ margin-left: 10px;
+ color:white;
+ background-color: cornflowerblue;
+ border-radius: 10px;
+ border: 1px black solid;
+}
